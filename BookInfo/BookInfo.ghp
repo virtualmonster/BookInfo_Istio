@@ -10,22 +10,21 @@
         <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
             <connectionParams ZOSEnv="false"
                 dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
-                dpsPass="#com.ghc.1!04b8" dpsUser=""
+                dpsPass="#com.ghc.1!4cbf" dpsUser=""
                 driverClass="com.ibm.db2.jcc.DB2Driver"
-                password="#com.ghc.1!e5be"
-                url="jdbc:db2://&lt;hostname>:50000/&lt;database>"
-                useSsl="false" user="">
+                password="#com.ghc.1!c636E351A2E8727E117E55280CB46A5F40E721537E03128A4AC9"
+                url="jdbc:db2://10.10.10.10.nip.io:50000/vresults" user="db2inst1">
                 <dpsSsl useSsl="false"/>
                 <stubSettings maxProcCallCount="10000"
                     maxResultSetRowCount="10000" maxRowCount="10000"
-                    password="#com.ghc.1!be59"
+                    password="#com.ghc.1!8228"
                     procedureLearningBehaviour="1" schema="" url=""
                     useIntegratedDB="true" useSsl="false" user=""/>
                 <storedProcedureFilter catalogFilterEnabled="false"
                     catalogFilterPattern=""
                     procedureFilterEnabled="false"
                     procedureFilterPattern="" schemaFilterEnabled="true"
-                    schemaFilterPattern=""
+                    schemaFilterPattern="db2inst1"
                     storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
                 <timestampFormatting timestampFormatZero="false"
                     timestampFormattingEnabled="false" timestampPrecision="9"/>
@@ -34,8 +33,9 @@
         <automationServer enabled="false" hostname="" port="443"
             projectId="-1" projectName="--No Project Selected--"
             publishResults="false" trustSource="TRUST_ALL"
-            trustStorePassword="#com.ghc.1!d331" trustStorePath=""/>
+            trustStorePassword="#com.ghc.1!7e6c" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
         permFactId="ldap.permissions.factory.none" port="389" pswd="rn80Kr5u5G9Lu+CbrIeOLrIJo4VJtKCNkJldqu9msdU=$7BEhvOPw/z7MSUHiJxVPBAEvi4dTGYSFR38+/k3s7B4="/>
+    <resultPublishers disableAll="false"/>
 </_c>
