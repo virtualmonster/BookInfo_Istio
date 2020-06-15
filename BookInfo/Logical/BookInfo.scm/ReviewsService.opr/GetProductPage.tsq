@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1592255513987"
     createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7d3c"
-    type="test_resource" updatedTimestamp="1592255513987"
+    type="test_resource" updatedTimestamp="1592256599635"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -131,23 +131,6 @@
                         </_c>
                         <_c meTy="String" name="ReasonPhrase"
                             sch="Http Receive Reply" type="7" version="1.2"/>
-                        <_c meTy="String" name="MessageType"
-                            sch="Http Receive Reply" type="7" version="1.2">
-                            <fieldActionGroup>
-                                <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="http.text.message.type" type="0"/>
-                                </fieldAction>
-                            </fieldActionGroup>
-                            <filterActionGroup>
-                                <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="http.text.message.type" type="0"/>
-                                </fieldAction>
-                            </filterActionGroup>
-                        </_c>
-                        <_c meTy="Date-Time" name="rcvdTimestamp"
-                            sch="Http Receive Reply" type="11" version="1.2"/>
                         <_c meTy="Message" name="httpDetails"
                             sch="Http Receive Reply" type="12" version="1.2">
                             <fieldActionGroup>
@@ -230,22 +213,30 @@
                                     </filterActionGroup>
                                 </_c>
                             </_c>
+                            <_c meTy="Boolean" name="followRedirects"
+                                optional="true" sch="Http Receive Reply"
+                                type="8" version="1.2"/>
                         </_c>
+                        <_c meTy="String" name="MessageType"
+                            sch="Http Receive Reply" type="7" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <filterActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </filterActionGroup>
+                        </_c>
+                        <_c meTy="Date-Time" name="rcvdTimestamp"
+                            sch="Http Receive Reply" type="11" version="1.2"/>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        Method="POST" URL="" _version="1.1"
-                        consumerType="Participate" filterHeaders="true"
-                        filterMethod="true" filterResourcePath="false"
-                        formatter="HTTP_Message" transport="-47ea204f:172995c51ea:-7ec8">
-                        <filterHeadersList>
-                            <header disabled="true" name="x-powered-by"
-                                type="7" value="Servlet/3.1"/>
-                            <header disabled="true" name="content-type"
-                                type="7" value="application/json"/>
-                            <header disabled="true"
-                                name="content-language" type="7" value="en-US"/>
-                        </filterHeadersList>
-                    </subconfig>
+                        _version="1.1" formatter="HTTP_Message" transport="-47ea204f:172995c51ea:-7ec8"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -305,9 +296,25 @@
                                     <updateField path="/text/Object/reviews/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/reviews/0/rating/color"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="black" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/reviews/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/reviews/1/rating/color"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="black" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                 </updates>
                             </contentTree>
                             <fieldActionGroup>
@@ -321,5 +328,6 @@
             </editableResource>
         </testTree>
         <tagDataStore inputMode="NONE" outputMode="NONE"/>
+        <testprops messageClearance="false"/>
     </resourceConfig>
 </editableResource>
