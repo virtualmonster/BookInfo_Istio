@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20200518_1412" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on 9 June 2020" creationVersion="10.1.0"
+    domain="default" extDocPrefix="" name="BookInfo"
+    owner="STUART.WALKER" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000172-995c-514d-0000-63ddf9fdf6c0">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsPass="#com.ghc.1!04b8" dpsUser=""
+                driverClass="com.ibm.db2.jcc.DB2Driver"
+                password="#com.ghc.1!e5be"
+                url="jdbc:db2://&lt;hostname>:50000/&lt;database>"
+                useSsl="false" user="">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!be59"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern=""
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!d331" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="rn80Kr5u5G9Lu+CbrIeOLrIJo4VJtKCNkJldqu9msdU=$7BEhvOPw/z7MSUHiJxVPBAEvi4dTGYSFR38+/k3s7B4="/>
+</_c>
