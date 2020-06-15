@@ -2,24 +2,24 @@
 <editableResource createdTimestamp="1591711244814"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7ec7"
     selfDescribing="Reviews - http reviews.bookinfo:9080"
-    type="http_transport" updatedTimestamp="1591711735100"
+    type="http_transport" updatedTimestamp="1592255537660"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig transportName="Reviews" transportTemplateName="HTTP">
         <messageProperties
             ReasonPhrase="No Stub available that matches the request"
             clientConnectionsPerHost="100" credDomain=""
-            credPassword="#com.ghc.1!971b" credPreemptive="false"
+            credPassword="#com.ghc.1!a4e3" credPreemptive="false"
             credType="0" credUser="" httpHost="reviews.bookinfo"
             httpNtlmDomain="" httpPort="9080" httpProxyHost=""
-            httpProxyPassword="#com.ghc.1!cab5" httpProxyPort=""
+            httpProxyPassword="#com.ghc.1!e20f" httpProxyPort=""
             httpProxyUsername="" httpServerSocketBindAddressOverride=""
             httpServerSocketPortOverride="" httpSocketTimeout=""
             httpTimeoutResponseCode="503" httpVirtualHost=""
             namespace="bookinfo" recType="ISTIO_PROXY" useSsl="false" version="4">
             <kerberos Anon="false" Conf="false" Custom="true"
                 Enabled="false" Integ="false" KDC="" Loc=""
-                MutAuth="false" Principal="" Pwd="#com.ghc.1!7a7b"
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!a59f"
                 Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
             <oauth clientassertion="" clientid="" clientsecret=""
                 enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
