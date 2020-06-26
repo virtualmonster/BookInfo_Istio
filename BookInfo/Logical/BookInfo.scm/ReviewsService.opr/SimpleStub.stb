@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1591711551689"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7e1b"
-    type="stub_resource" updatedTimestamp="1593159424589"
+    type="stub_resource" updatedTimestamp="1593165441234"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -417,7 +417,7 @@
                                     <fieldExpander
                                     fieldExpanderID="JSON.fieldexpander"
                                     fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                                    <contentTree>{"id":"0","reviews":[{"reviewer":"Reviewer1","text":"An extremely entertaining play by Shakespeare. The slapstick humour is refreshing!","rating":{"stars":5,"color":"purple"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}}]}<defaultActions>
+                                    <contentTree>{"id":"0","reviews":[{"reviewer":"Reviewer1","text":"An extremely entertaining play by Shakespeare. The slapstick humour is refreshing!","rating":{"stars":5,"color":"purple"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"yellow"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"red"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"blue"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}}]}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
 
@@ -552,7 +552,7 @@
                 </resourceConfig>
             </editableResource>
         </testTree>
-        <tagDataStore identifier="2da3b745:172efaa6b87:-7dca"
+        <tagDataStore identifier="2da3b745:172efaa6b87:-7682"
             inputMode="NONE" outputMode="NONE"/>
         <testprops messageClearance="false"/>
         <stubprops behaviourStyle="ONE_TO_ONE" majorVersion="1"
