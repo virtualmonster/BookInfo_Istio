@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1591711551689"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7e1b"
-    type="stub_resource" updatedTimestamp="1591711576708"
+    type="stub_resource" updatedTimestamp="1593159424589"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -17,10 +17,10 @@
                         Method="GET" URL="/reviews/0" _version="1.1"
                         allowSubPath="false" consumerType="Participate"
                         filterHeaders="false" filterMethod="true" filterResourcePath="true"/>
-                    <passThrough behaviour="SIMULATE_ERROR"
+                    <passThrough behaviour="DELAY"
                         componentId="-47ea204f:172995c51ea:-7e1d"
                         componentType="OPERATION" templateType="http_transport">
-                        <SIMULATE_ERROR delayPeriod="0" errorCode="503" statusText="Unavailable"/>
+                        <DELAY delayPeriod="0"/>
                     </passThrough>
                     <cases>
                         <editableResource
@@ -147,7 +147,14 @@
                                     <_c meTy="String"
                                     name="User-Agent"
                                     sch="Http Subscribe"
-                                    type="7" version="1.2"/>
+                                    type="7" version="1.2">
+                                    <filterActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    exp="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" type="0"/>
+                                    </fieldAction>
+                                    </filterActionGroup>
+                                    </_c>
                                     <_c meTy="String"
                                     name="Content-Type"
                                     sch="Http Subscribe"
@@ -410,7 +417,7 @@
                                     <fieldExpander
                                     fieldExpanderID="JSON.fieldexpander"
                                     fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                                    <contentTree>{"id":"0","reviews":[{"reviewer":"Reviewer1","text":"An extremely entertaining play by Shakespeare. The slapstick humour is refreshing!","rating":{"stars":5,"color":"black"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"black"}}]}<defaultActions>
+                                    <contentTree>{"id":"0","reviews":[{"reviewer":"Reviewer1","text":"An extremely entertaining play by Shakespeare. The slapstick humour is refreshing!","rating":{"stars":5,"color":"purple"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}},{"reviewer":"Stuart Walker","text":"Terrible, 1 Star - don't bother!!!","rating":{"stars":4,"color":"green"}}]}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
 
@@ -492,6 +499,30 @@
                                     <updateField path="/text/Object/reviews/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <updateField path="/text/Object/reviews/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/3">
+                                    <_c name="3"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/4">
+                                    <_c name="4"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/5">
+                                    <_c name="5"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/6">
+                                    <_c name="6"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/7">
+                                    <_c name="7"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/8">
+                                    <_c name="8"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/9">
+                                    <_c name="9"/>
+                                    </updateField>
                                     </updates>
                                     </contentTree>
                                     <fieldActionGroup>
@@ -521,7 +552,8 @@
                 </resourceConfig>
             </editableResource>
         </testTree>
-        <tagDataStore inputMode="NONE" outputMode="NONE"/>
+        <tagDataStore identifier="2da3b745:172efaa6b87:-7dca"
+            inputMode="NONE" outputMode="NONE"/>
         <testprops messageClearance="false"/>
         <stubprops behaviourStyle="ONE_TO_ONE" majorVersion="1"
             messageClearance="false" minorVersion="0" optimise="false" wrks="10">
