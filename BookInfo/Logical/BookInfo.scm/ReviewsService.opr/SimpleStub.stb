@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1591711551689"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7e1b"
-    type="stub_resource" updatedTimestamp="1593165441234"
+    type="stub_resource" updatedTimestamp="1593450116162"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -151,7 +151,7 @@
                                     <filterActionGroup>
                                     <fieldAction type="1">
                                     <fieldAction
-                                    exp="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" type="0"/>
+                                    exp="Chrome" type="2"/>
                                     </fieldAction>
                                     </filterActionGroup>
                                     </_c>
