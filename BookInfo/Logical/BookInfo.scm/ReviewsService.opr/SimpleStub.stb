@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1591711551689"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7e1b"
-    type="stub_resource" updatedTimestamp="1593450116162"
+    type="stub_resource" updatedTimestamp="1593698740773"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -552,7 +552,7 @@
                 </resourceConfig>
             </editableResource>
         </testTree>
-        <tagDataStore identifier="2da3b745:172efaa6b87:-7682"
+        <tagDataStore identifier="700512dd:17301064cf9:-7e2a"
             inputMode="NONE" outputMode="NONE"/>
         <testprops messageClearance="false"/>
         <stubprops behaviourStyle="ONE_TO_ONE" majorVersion="1"
@@ -562,7 +562,10 @@
                     <value type="NO_DELAY"/>
                 </entry>
             </responseTimeTable>
-            <environmentTasks preventExecutionOnFailure="false"/>
+            <environmentTasks preventExecutionOnFailure="false">
+                <task id="700512dd:17301064cf9:-3323"
+                    lkname="Refresh Data" lkpath="Refresh Data" type="env_task_resource"/>
+            </environmentTasks>
         </stubprops>
         <Session mode="NONE"/>
     </resourceConfig>

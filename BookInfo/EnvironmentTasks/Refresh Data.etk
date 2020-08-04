@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1593691788835"
+    createdUser="STUART.WALKER" id="700512dd:17301064cf9:-3323"
+    type="env_task_resource" updatedTimestamp="1593691788838"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <tagDataStore inputMode="NONE" outputMode="NONE"/>
+    </resourceConfig>
+</editableResource>
