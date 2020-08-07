@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1591711551689"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7e1b"
-    type="stub_resource" updatedTimestamp="1593698740773"
-    updatedUser="STUART.WALKER" version="1.1">
+    type="stub_resource" updatedTimestamp="1596810955356"
+    updatedUser="stuart.walker" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
         <testTree>
@@ -28,7 +28,8 @@
                             selfDescribing="Configure the filtering and validation for this Case action"
                             type="message_case_action" version="1.0">
                             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-                            <resourceConfig description="" name="&quot;Text&quot; using schema &quot;Text&quot;">
+                            <resourceConfig
+                                description="Stub Chrome UserAgent" name="&quot;Text&quot; using schema &quot;Text&quot;">
                                 <FilterExpressions option="NOTHING" type="script:ECMAScript"/>
                                 <bodyfilters assocdefid="Text"
                                     name="Text" sch="Text" type="12" version="1.2">
@@ -121,31 +122,31 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                     <_c meTy="String"
-                                    name="Accept"
+                                    name="accept"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="Referer"
+                                    name="referer"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="Accept-Language"
+                                    name="accept-language"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="Accept-Encoding"
+                                    name="accept-encoding"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="If-Modified-Since"
+                                    name="if-modified-since"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="If-None-Match"
+                                    name="if-none-match"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="User-Agent"
+                                    name="user-agent"
                                     sch="Http Subscribe"
                                     type="7" version="1.2">
                                     <filterActionGroup>
@@ -156,23 +157,23 @@
                                     </filterActionGroup>
                                     </_c>
                                     <_c meTy="String"
-                                    name="Content-Type"
+                                    name="content-type"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="SOAPAction"
+                                    name="soapaction"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="Host"
+                                    name="host"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="Connection"
+                                    name="connection"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     <_c meTy="String"
-                                    name="Cookie"
+                                    name="cookie"
                                     sch="Http Subscribe"
                                     type="7" version="1.2"/>
                                     </_c>
