@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1591711551689"
     createdUser="STUART.WALKER" id="-47ea204f:172995c51ea:-7e1b"
-    type="stub_resource" updatedTimestamp="1596810955356"
+    type="stub_resource" updatedTimestamp="1596874259116"
     updatedUser="stuart.walker" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -29,7 +29,7 @@
                             type="message_case_action" version="1.0">
                             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
                             <resourceConfig
-                                description="Stub Chrome UserAgent" name="&quot;Text&quot; using schema &quot;Text&quot;">
+                                description="Stub Chrome UserAgent " name="&quot;Text&quot; using schema &quot;Text&quot;">
                                 <FilterExpressions option="NOTHING" type="script:ECMAScript"/>
                                 <bodyfilters assocdefid="Text"
                                     name="Text" sch="Text" type="12" version="1.2">

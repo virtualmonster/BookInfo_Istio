@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1592255513987"
     createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7d3c"
-    type="test_resource" updatedTimestamp="1596810977871"
+    type="test_resource" updatedTimestamp="1596874808567"
     updatedUser="stuart.walker" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
