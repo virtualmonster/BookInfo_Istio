@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1592255513987"
     createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7d3c"
-    type="test_resource" updatedTimestamp="1596874808567"
+    type="test_resource" updatedTimestamp="1596875078710"
     updatedUser="stuart.walker" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -250,9 +250,9 @@
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
-                            <fieldAction type="1">
+                            <fieldAction enabled="false" type="1">
                                 <fieldAction anyOrder="false"
-                                    ignoreExtra="false"
+                                    enabled="false" ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                             </fieldAction>
                         </fieldActionGroup>
