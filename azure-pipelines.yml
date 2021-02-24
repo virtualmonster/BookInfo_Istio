@@ -16,8 +16,8 @@ steps:
 - task: OTSTask@0
   inputs:
     OTSService: 'OneTestServer'
-    project: 'Vacation Booking Tests'
-    branch: 'NJDC_VBooking'
-    repo: 'https://github.com/virtualmonster/OneTest_VBooking_API.git'
-    filePath: 'VBooking_API/Logical/VBServices.scm/Tomcat Services.scm/HotelFinder.wsc/getHotels.opr/HotelBookingServices.gts'
-    ritEnv: 'SIT'
+    project: 'BookInfo Istio Project'
+    branch: 'Master'
+    repo: 'https://github.com/virtualmonster/BookInfo_Istio.git'
+    filePath: 'BookInfo/Logical/BookInfo.scm/ReviewsService.opr/BookInfo API Tests.gts'
+    ritEnv: 'LP2-EU-51627856'
