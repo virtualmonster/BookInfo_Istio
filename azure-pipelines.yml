@@ -17,7 +17,7 @@ steps:
   inputs:
     OTSService: 'OneTestServer'
     project: 'BookInfo Istio Project'
-    branch: 'Master'
+    branch: 'master'
     repo: 'https://github.com/virtualmonster/BookInfo_Istio.git'
     filePath: 'BookInfo/Logical/BookInfo.scm/ReviewsService.opr/BookInfo API Tests.gts'
     ritEnv: 'LP2-EU-51627856'
