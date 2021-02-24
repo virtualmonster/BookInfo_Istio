@@ -21,6 +21,7 @@ steps:
     repo: 'https://github.com/virtualmonster/BookInfo_Istio.git'
     filePath: 'BookInfo/Logical/BookInfo.scm/ReviewsService.opr/SimpleStub.stb'
     ritEnv: 'LP2-EU-51627856'
+
 - task: OTSTask@0
   inputs:
     OTSService: 'OneTestServer'
