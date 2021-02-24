@@ -1,0 +1,23 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  'Default'
+
+steps:
+- script: echo Running Book Reviews Pipeline!
+  displayName: 'Book reviews Pipeline - OneTest Tests'
+  
+- task: OTSTask@0
+  inputs:
+    OTSService: 'OneTestServer'
+    project: 'Vacation Booking Tests'
+    branch: 'NJDC_VBooking'
+    repo: 'https://github.com/virtualmonster/OneTest_VBooking_API.git'
+    filePath: 'VBooking_API/Logical/VBServices.scm/Tomcat Services.scm/HotelFinder.wsc/getHotels.opr/HotelBookingServices.gts'
+    ritEnv: 'SIT'
