@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1614171513366"
     createdUser="STUART.WALKER" id="-15baab5:177d3cad68e:-7b8f"
-    type="test_resource" updatedTimestamp="1614171542786"
+    type="test_resource" updatedTimestamp="1614171876821"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -163,9 +163,9 @@
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
-                            <fieldAction enabled="false" type="1">
+                            <fieldAction type="1">
                                 <fieldAction anyOrder="false"
-                                    enabled="false" ignoreExtra="false"
+                                    ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                             </fieldAction>
                         </fieldActionGroup>
@@ -176,7 +176,7 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{}<defaultActions>
+                            <contentTree>{"id":"99","reviews":[{"reviewer":"Reviewer1","text":"An extremely entertaining play by Shakespeare. The slapstick humour is refreshing!","rating":{"stars":5,"color":"green"}},{"reviewer":"Reviewer2","text":"Absolutely fun and entertaining. The play lacks thematic depth when compared to other plays by Shakespeare.","rating":{"stars":4,"color":"green"}}]}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
@@ -212,6 +212,15 @@
                                 <updates>
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/reviews/1">
+                                    <_c name="1"/>
                                     </updateField>
                                 </updates>
                             </contentTree>
