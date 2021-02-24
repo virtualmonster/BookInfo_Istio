@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1592255513987"
     createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7d3c"
-    type="test_resource" updatedTimestamp="1596875078710"
-    updatedUser="stuart.walker" version="1.1">
+    type="test_resource" updatedTimestamp="1614167164267"
+    updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
@@ -127,9 +127,8 @@
                         <_c meTy="String" name="StatusCode"
                             sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
-                                <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="200" type="0"/>
+                                <fieldAction type="1">
+                                    <fieldAction exp="200" type="0"/>
                                 </fieldAction>
                             </fieldActionGroup>
                             <filterActionGroup>
@@ -141,23 +140,6 @@
                         </_c>
                         <_c meTy="String" name="ReasonPhrase"
                             sch="Http Receive Reply" type="7" version="1.2"/>
-                        <_c meTy="String" name="MessageType"
-                            sch="Http Receive Reply" type="7" version="1.2">
-                            <fieldActionGroup>
-                                <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="http.text.message.type" type="0"/>
-                                </fieldAction>
-                            </fieldActionGroup>
-                            <filterActionGroup>
-                                <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="http.text.message.type" type="0"/>
-                                </fieldAction>
-                            </filterActionGroup>
-                        </_c>
-                        <_c meTy="Date-Time" name="rcvdTimestamp"
-                            sch="Http Receive Reply" type="11" version="1.2"/>
                         <_c meTy="Message" name="httpDetails"
                             sch="Http Receive Reply" type="12" version="1.2">
                             <fieldActionGroup>
@@ -244,6 +226,23 @@
                                 optional="true" sch="Http Receive Reply"
                                 type="8" version="1.2"/>
                         </_c>
+                        <_c meTy="String" name="MessageType"
+                            sch="Http Receive Reply" type="7" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <filterActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </filterActionGroup>
+                        </_c>
+                        <_c meTy="Date-Time" name="rcvdTimestamp"
+                            sch="Http Receive Reply" type="11" version="1.2"/>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
                         _version="1.1" formatter="HTTP_Message" transport="-47ea204f:172995c51ea:-7ec8"/>
