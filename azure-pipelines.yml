@@ -12,7 +12,15 @@ pool:
 steps:
 - script: echo Running Book Reviews Pipeline!
   displayName: 'Book reviews Pipeline - OneTest Tests'
-  
+
+- task: OTSTask@0
+  inputs:
+    OTSService: 'OneTestServer'
+    project: 'BookInfo Istio Project'
+    branch: 'master'
+    repo: 'https://github.com/virtualmonster/BookInfo_Istio.git'
+    filePath: 'BookInfo/Logical/BookInfo.scm/ReviewsService.opr/SimpleStub.stb'
+    ritEnv: 'LP2-EU-51627856'
 - task: OTSTask@0
   inputs:
     OTSService: 'OneTestServer'
