@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1592255712655"
-    createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7c04"
-    type="test_suite_resource" updatedTimestamp="1618328133300"
+<editableResource createdTimestamp="1618328024339"
+    createdUser="STUART.WALKER" id="-64cb318d:178bdb68213:3907"
+    type="test_suite_resource" updatedTimestamp="1618328163294"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
     <resourceConfig>
@@ -34,17 +34,26 @@
                 <environmentTasks preventExecutionOnFailure="false"/>
             </resourceConfig>
             <testItem continueOnFail="true"
-                id="-64cb318d:178bdb68213:3930"
-                lkname="BookInfo Ratings Tests"
-                lkpath="BookInfo/ReviewsService/BookInfo Ratings Tests" type="test_suite_resource"/>
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
             <testItem continueOnFail="true"
-                id="-64cb318d:178bdb68213:3907"
-                lkname="BookInfo Reviews Tests"
-                lkpath="BookInfo/ReviewsService/BookInfo Reviews Tests" type="test_suite_resource"/>
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
             <testItem continueOnFail="true"
-                id="-64cb318d:178bdb68213:3918"
-                lkname="BookInfo Product Details Tests"
-                lkpath="BookInfo/ReviewsService/BookInfo Product Details Tests" type="test_suite_resource"/>
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="-15baab5:177d3cad68e:-7b8f" lkname="NegativeTest"
+                lkpath="BookInfo/ReviewsService/NegativeTest" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
         </scenario>
     </resourceConfig>
 </editableResource>
