@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1592255712655"
     createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7c04"
-    type="test_suite_resource" updatedTimestamp="1614173509789"
+    type="test_suite_resource" updatedTimestamp="1618327944288"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
     <resourceConfig>
@@ -37,8 +37,23 @@
                 id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
                 lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
             <testItem continueOnFail="true"
-                id="-15baab5:177d3cad68e:-7b8f" lkname="NegativeTest"
-                lkpath="BookInfo/ReviewsService/NegativeTest" type="test_resource"/>
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
+            <testItem continueOnFail="true"
+                id="4993e1a:172b9b9057f:-7d3c" lkname="GetProductPage"
+                lkpath="BookInfo/ReviewsService/GetProductPage" type="test_resource"/>
         </scenario>
     </resourceConfig>
 </editableResource>

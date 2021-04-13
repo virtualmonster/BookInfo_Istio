@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1614187001632"
+    createdUser="STUART.WALKER" id="-15baab5:177d3cad68e:-6d4d"
+    selfDescribing="email - Email Server [smtp.gmail.com]"
+    type="email_contents_transport" updatedTimestamp="1614246113738"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="email" transportTemplateName="Email">
+        <_c host="smtp.gmail.com" imap_host="imap.gmail.com"
+            imap_port="" mbox="inbox"
+            pass="#com.ghc.1!8828E312A2FF7261117455310CB96A5E40EF210E7E16128F4A8C4424"
+            port="" type="client" useSsl="true" user="swalker.home@googlemail.com"/>
+    </resourceConfig>
+</editableResource>
