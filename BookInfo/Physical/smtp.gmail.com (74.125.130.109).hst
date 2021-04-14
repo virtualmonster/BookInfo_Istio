@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1618406063122"
+    createdUser="STUART.WALKER" id="-5c521cbb:178d084b2a1:-7e9b"
+    selfDescribing="smtp.gmail.com (74.125.130.109)"
+    type="host_machine_resource" updatedTimestamp="1618406063122"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="74.125.130.109" user_host_name="smtp.gmail.com">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

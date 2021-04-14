@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1592255712655"
     createdUser="STUART.WALKER" id="4993e1a:172b9b9057f:-7c04"
-    type="test_suite_resource" updatedTimestamp="1618328133300"
+    type="test_suite_resource" updatedTimestamp="1618406109834"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
     <resourceConfig>
@@ -37,10 +37,6 @@
                 id="-64cb318d:178bdb68213:3930"
                 lkname="BookInfo Ratings Tests"
                 lkpath="BookInfo/ReviewsService/BookInfo Ratings Tests" type="test_suite_resource"/>
-            <testItem continueOnFail="true"
-                id="-64cb318d:178bdb68213:3907"
-                lkname="BookInfo Reviews Tests"
-                lkpath="BookInfo/ReviewsService/BookInfo Reviews Tests" type="test_suite_resource"/>
             <testItem continueOnFail="true"
                 id="-64cb318d:178bdb68213:3918"
                 lkname="BookInfo Product Details Tests"
